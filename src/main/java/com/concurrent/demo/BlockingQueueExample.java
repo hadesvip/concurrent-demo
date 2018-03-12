@@ -12,7 +12,9 @@ import java.util.concurrent.BlockingQueue;
  *  --ArrayBlockingQueue
  *    有界堵塞队列（FIFO），底层是通过数组实现的，根据数组的特点，一点设置了容量大小，不可以对容量大小修改
  *  --DelayQueue
+ *    延时队列
  *  --LinkedBlockingQueue
+ *    链式堵塞队列
  *  --PriorityBlockingQueue
  * --SynchronousQueue
  *
